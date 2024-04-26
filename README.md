@@ -28,8 +28,8 @@ Modular Python script that uses the Python `keystone-engine` library to convert 
 Usage: gen_rev.py [options]
 
 Options:
-  <attackerIP>    -->  IP address to connect to                        (default: 127.0.0.1)
-  <attackerPort>  -->  NOT WORKING YET: Listening port to connect to   (default: 443)
+  <attackerIP>    -->  IP address to connect to      (default: 127.0.0.1)
+  <attackerPort>  -->  Listening port to connect to  (default: 443)
   --cmd           -->  Target shell uses 'cmd.exe' instead of 'powershell.exe'
   --dbg           -->  Execute shellcode, allowing attachment to the process
   --help          -->  Return help message
